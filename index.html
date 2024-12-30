@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="bg-gray-200 border-b-2 border-black p-4 h-8 sm:min-h-8 flex justify-around items-center">
+        
+        <!-- For Small Screens -->
+        <div class="flex  items-center ">
+            <img class="h-11 w-12" src="/images/whatsapp-logo-png.webp" alt="">
+            <p class="text-md">Chat on Whatsapp</p>
+        </div>
+        
+        <div class="hidden md:flex gap-x-20">
+        <p class="text-md">Free Delivery All Over India</p>
+    </div>
+     
+        <div class="hidden md:flex gap-x-20">       
+            <p class="text-md">Need Help? </p>
+            <p class="text-md">Proudly Make In India</p>
+        </div>
+    
+    </div>
+
+    <div class="bg-black flex justify-around items-center">
+        
+        <img class="h-20" src="https://ibby00.github.io/AL_Qudsiyah/al%20qudsiyah.jpg" alt="">
+        
+        <form action="" class="flex">
+            <input 
+                class="rounded-lg border-none w-full max-w-md px-4 py-2 focus:outline-none focus:ring focus:ring-gray-400" 
+                type="text" 
+                placeholder="Search Here...!"
+            >
+            
+            <button 
+                class="ml-2 px-6 py-2 text-sm bg-gray-500 text-white font-semibold 
+                rounded-lg hover:bg-gray-600 focus:outline-none focus:ring focus:ring-gray-400"
+                type="submit"
+            >
+                Search</button>
+        </form>
+        
+        <div class="navbar-button">
+            <img class="h-5" src="images/track_your_order.png" alt="">&nbsp;
+            <a class="text-md" href="#">Track Your Order</a>
+        </div>
+
+        <div class="navbar-button">
+            <img class="h-6" src="images/cart.png" alt="">&nbsp;
+            <a class="text-lg" href="#">Cart</a>
+        </div>
+
+        <div class="navbar-button">
+            <img class="h-6" src="images/user_login_logo.png" alt="">&nbsp;
+            <a class="text-lg" href="#">Login</a>
+        </div>
+    </div>
+
+    <div class="text-lg md:flex md:flex-row flex-auto justify-around py-2 font-medium sm:flex-col">
+        <a class="flex hover:bg-yellow-200 rounded-full px-8" href="">Home</a>
+        <a class="flex hover:bg-yellow-200 rounded-full px-8" href="">Category 2</a>
+        <a class="flex hover:bg-yellow-200 rounded-full px-8" href="">Category 3</a>
+        <a class="hidden md:flex hover:bg-yellow-200 rounded-full px-8" href="">Category 4</a>
+        <a class="hidden md:flex hover:bg-yellow-200 rounded-full px-8" href="">Category 5</a>
+        <a class="hidden md:flex hover:bg-yellow-200 rounded-full px-8" href="">Category 6</a>
+        <a class="hidden md:flex hover:bg-yellow-200 rounded-full px-8" href="">Category 7</a>
+    </div>
+
+    <div class="">
+        <img class="w-full object-cover" src="https://static.vecteezy.com/system/resources/previews/026/437/344/non_2x/glowing-candlelight-illuminates-the-dark-table-reflecting-in-glass-generated-by-ai-free-photo.jpg" alt="">
+    </div>
+    
+</body>
+
+</html>
